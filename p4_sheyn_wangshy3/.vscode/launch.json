@@ -1,0 +1,34 @@
+// AUTOMATICALLY GENERATED FILE. PLEASE DO NOT MODIFY IT MANUALLY
+
+// PIO Unified Debugger
+//
+// Documentation: https://docs.platformio.org/page/plus/debugging.html
+// Configuration: https://docs.platformio.org/page/projectconf/section_env_debug.html
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug",
+            "executable": "c:/Users/Sam/Desktop/My_work/cs110/project4/p4_sheyn_wangshy3/.pio/build/sipeed-longan-nano/firmware.elf",
+            "toolchainBinDir": "C:/Users/Sam/.platformio/packages/toolchain-gd32v/bin",
+            "svdPath": "C:/Users/Sam/.platformio/platforms/gd32v/misc/svd/GD32VF103.svd",
+            "preLaunchTask": {
+                "type": "PlatformIO",
+                "task": "Pre-Debug"
+            },
+            "internalConsoleOptions": "openOnSessionStart"
+        },
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug (skip Pre-Debug)",
+            "executable": "c:/Users/Sam/Desktop/My_work/cs110/project4/p4_sheyn_wangshy3/.pio/build/sipeed-longan-nano/firmware.elf",
+            "toolchainBinDir": "C:/Users/Sam/.platformio/packages/toolchain-gd32v/bin",
+            "svdPath": "C:/Users/Sam/.platformio/platforms/gd32v/misc/svd/GD32VF103.svd",
+            "internalConsoleOptions": "openOnSessionStart"
+        }
+    ]
+}
